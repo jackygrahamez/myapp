@@ -27,10 +27,6 @@ angular
         templateUrl: 'views/about_us.html',
         controller: 'AboutUsCtrl'
       })
-      .when('/animations', {
-        templateUrl: 'views/animations.html',
-        controller: 'AnimationsCtrl'
-      })
       .when('/banners', {
         templateUrl: 'views/banners.html',
         controller: 'BannersCtrl'
@@ -58,6 +54,14 @@ angular
       .when('/web', {
         templateUrl: 'views/web.html',
         controller: 'WebCtrl'
+      })
+      .when('/2D_animations', {
+        templateUrl: 'views/2d_animations.html',
+        controller: '2dAnimationsCtrl'
+      })
+      .when('/3D_animations', {
+        templateUrl: 'views/3d_animations.html',
+        controller: '3dAnimationsCtrl'
       })
       .otherwise({
         redirectTo: '/'

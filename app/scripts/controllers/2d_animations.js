@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc function
- * @name myappApp.controller:AnimationsCtrl
+ * @name myappApp.controller:2dAnimationsCtrl
  * @description
- * # AnimationsCtrl
+ * # 2dAnimationsCtrl
  * Controller of the myappApp
  */
 angular.module('myappApp')
-  .controller('AnimationsCtrl', function ($scope) {
+  .controller('2dAnimationsCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
