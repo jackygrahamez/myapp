@@ -2637,6 +2637,7 @@ h1, h2, h3, h4, h5, h6
   height:100%;
   display:inline-block;
   z-index:2;
+  zoom: 50%;
 }
 .full-width-item
 {
@@ -2753,9 +2754,10 @@ h1, h2, h3, h4, h5, h6
   position:absolute;
   top:0px;
   left: 0px;
-  width:100%;/*********/
+  width:100%;
   height: 100%;
   z-index:992;
+  display:none;
 }
 .full-width-preview-media-holder-background
 {
@@ -2784,7 +2786,7 @@ h1, h2, h3, h4, h5, h6
 }
 .preview-smartphone-info{
   position:absolute;
-  /*display:none;*/
+  display:none;
   bottom: 0px;
   width:100%;
   cursor:pointer;
@@ -2810,7 +2812,7 @@ h1, h2, h3, h4, h5, h6
 .preview-arrow-forward, .preview-arrow-backward , .preview-arrow-close
 {
   position:absolute;
-  /*display:none;*/
+  display:none;
   top:50%;
   margin:-23px 30px 0px 0px;
   right:0px;

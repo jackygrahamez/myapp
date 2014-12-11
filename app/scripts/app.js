@@ -63,6 +63,10 @@ angular
         templateUrl: 'views/3d_animations.html',
         controller: '3dAnimationsCtrl'
       })
+      .when('/resume', {
+        templateUrl: 'views/resume.html',
+        controller: 'ResumeCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
